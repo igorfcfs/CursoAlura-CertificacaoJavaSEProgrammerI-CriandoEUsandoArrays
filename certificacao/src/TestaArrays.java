@@ -20,7 +20,7 @@ public class TestaArrays {
 		int[] idades2;
 		idades2 = new int[]/*Obrigatorio*/ {0,2,4,6,8};
 		
-		Cliente[] clientes = new Cliente[] {new Cliente("nome"), null, new Cliente("nome")};
+		Cliente[] clientes = new Cliente[] {new Cliente(), null, new Cliente()};
 		System.out.println(idades[1]);
 		
 		System.out.println("-------------------");
